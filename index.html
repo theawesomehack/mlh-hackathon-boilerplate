@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% include hero.html %}
+{% if event.hero %}
+  {% include hero.html %}
+{% endif %}
 
 <section class="about">
   <div class="container">

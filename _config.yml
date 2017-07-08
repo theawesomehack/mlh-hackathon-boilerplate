@@ -8,85 +8,71 @@ baseurl: ""
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "https://mlh.github.io"
+url: "http://mphackday.com"
 
 # The ability to use custom themes.
 style:
   theme: "original"
 
 # This will help you track who's visiting your website.
-tracking:
-  google_analytics: "UA-43729070-14"
+#tracking:
+#  google_analytics: "UA-43729070-14"
 
 # Let people connect & engage with you through social media.
-social:
-  twitter_handle: "MLHacks"
+#social:
+#  twitter_handle: "MLHacks"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5/6 August 2016"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  title:       "Morris Plains Hack Day | July 18, 2017"
+  description: "Come code with us at the Morris Plains Hack Day!"
+  # image:       ""
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 & 6 August 2016"
-  location:    "Holmdel, NJ, United States"
-
-  trust_badge:
-    year:   "2017"  # season year
-    region: "eu"    # "na" or "eu"
-    color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
-
-  hero:
-    links:
-      - text: "Apply"
-        my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
-      - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+  name:        "Morris Plains Hack Day"
+  description: "Come code with us at the Morris Plains Hack Day!"
+  date:        "July 18, 2017"
+  location:    "Morris Plains, NJ"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      Code with us! Solve tech problems! Invent games! Munch and have fun!
+      Coding classes for newbies. Dinner and snacks served.
+      Sponsored by Verizon and Major League Hacking, and the Morris Plains Municipal Alliance.
 
   # Info Sections
-  info:
-    sections:
-      - image: "images/image1.png"
-        title: "LEARN."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image2.png"
-        title: "BUILD."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image3.png"
-        title: "SHARE."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+  # info:
+  #   sections:
+  #     - image: "images/image1.png"
+  #       title: "LEARN."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
+  #     - image: "images/image2.png"
+  #       title: "BUILD."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
+  #     - image: "images/image3.png"
+  #       title: "SHARE."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
 
   # Frequently asked questions.
   faq:
     - question: "What is a hackathon?"
       answer: >
-        A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
-    - question: "How much does it cost?"
-      answer: >
-        Nothing. Attending a hackathon is free.
+        "A hackathon is an invention marathon. Students come together to build cool software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl)."
     - question: "Do I need to be a student to attend?"
       answer: >
-        Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend.
+        Yes. This hack day is open to rising 7th and 8th graders.
+    - question: "Do I need to register?"
+      answer: >
+        Yes. Registration is limited and required. Cost is only $4, payable via PayPal.
+        You can register online [here](https://goo.gl/C4gYFn).
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted at the Morris Plains Teen Center.
+        "Address: 27 Tabor Rd., Next to the 9/11 Memorial."
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -94,11 +80,6 @@ event:
     - question: "Is there a code of conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
-
-  # This is the message you'll receive once you've registered.
-  register:
-    message: >
-      You'll receive more information closer to the hackathon.
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
